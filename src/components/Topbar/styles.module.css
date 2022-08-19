@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@500&display=swap'); 
+*{
+    margin: 0;
+
+}
+.topbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+   background-color: #FFFFFF;
+
+}
+
+.logo{
+    font-size: 2.1em;
+    margin-top: -20px;
+    width: 130px;       
+    margin-top: 5px;
+    font-family: sans-serif;
+    color: rgb(0, 132, 255);   
+    font-weight: 900;    
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.08;
+    letter-spacing: -.9px;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+}
+
+.logostories{
+    object-fit: contain;
+    font-family: "Raleway",sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: .8;
+    letter-spacing: .9px;
+    color: #000;
+}
+
+.BlogTopbar{
+    width: auto;
+    height:15px;
+    text-decoration: none;
+}
+
+
+.BlogNavigationLink{
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .9px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+    left: -60px;   
+}
+
+.headers{
+    display: flex;
+    align-content: center;
+    align-items: baseline;
+    justify-content: space-around;
+    height: auto;
+    padding: 15px;
+    border-bottom: 1px solid #ccc; 
+ 
+    
+}
+
+.icon{
+    margin-left: 10px;
+}
+
+
+.BlogNavigationLinks__EdyodaText{
+    min-width: 23em;
+    opacity: .6;
+    font-family: "Raleway",sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: .4px;
+    text-align: left;
+    color: rgba(0,0,0,.6);
+    text-align: end;
+    margin-top: 0.5em;
+    position: relative;
+    left: 70px;
+    
+    
+    
+}
+
+.Button__Button{
+    min-width: 136px;
+    height: 42px;    
+    border-radius: 25px;
+    
+    width: auto;
+    font-size: 11px;
+    padding: 0.5em 2em;
+    margin: 0px 1em 0px 0px;
+    box-shadow: none;
+    word-wrap: break-word;
+    border-radius: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    padding: 8px 28px;
+    margin-right: 16px;
+    color: #fff;
+    outline: none;
+    font-family: "Raleway",sans-serif;
+    
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .03em;
+    background: #0084ff;
+    background: -webkit-linear-gradient(269deg,#0048ff,#0096ff);
+    background: -webkit-linear-gradient(181deg,#0048ff,#0096ff);
+    background: -o-linear-gradient(181deg,#0048ff,#0096ff);
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+}

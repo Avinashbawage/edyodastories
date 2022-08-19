@@ -1,0 +1,64 @@
+.latestposts{
+width: 100%;
+margin-top: 80px;
+}
+.filtertext{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+ }
+ .container{
+    width: 75%;
+     
+ 
+    margin: 0px auto;
+    padding: 20px;
+ }
+
+ /* Category Section */
+ .categoryfiltersection{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+ }
+
+ button{   
+    padding: 6px 14px;
+    width: auto;
+    font-size: .75em;
+    color: #0084ff;
+    padding: 6px 16px;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+ }
+
+/*  #active{
+    background-color: #0084ff;
+    color: #fff;
+ }
+ */
+/*  .filteritems #active{
+   background-color: #0084ff;
+   color: #fff;
+
+ }
+
+ .filteritems:active {
+   background-color: #0084ff;
+   color: #fff;
+ }
+ .filteritems:focus {
+   background-color: #0084ff;
+   color: #fff;
+ }
+ .filteritems:target {
+   background-color: #0084ff;
+   color: #fff;
+ }
+ */
+ .active{
+  background-color:red;
+  color: gold;
+  }
